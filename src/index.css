@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+  background-color: #F6F6FA;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  text-align: center;
+  background-color: #ffffff;
+}
+.navbar h1 {
+  color: #0a0104;
+  background-color: #ffffff;
+  padding-left: 20px;
+}
+.navbar .links {
+  margin-left: auto;
+  background-color: #ffffff;
+  
+  
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  background-color: #ffffff;
+  background: #FFE600;
+  color: #2E2E38;
+}
+.navbar a:hover {
+  color: #0b0b0b;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  background: #FFE600;
+  color: #2E2E38;
+  margin-bottom: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #060002;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #FFE600;
+  color: #2E2E38;
+  border: 0;
+  padding: 2px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+.create {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #070002;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+.create textarea, .create select {
+  width: 70%;
+  padding: 2px 2px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create input {
+  width: 50%;
+  padding: 2px 2px;
+  margin: 2px 0;
+  border: 1px solid rgb(228, 218, 105);
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  background: #FFE600;
+  color: #2E2E38;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.alert {
+  width: 100%;
+  padding: 5px;
+  color: rgb(6, 47, 248);
+}
+
+.img {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+
